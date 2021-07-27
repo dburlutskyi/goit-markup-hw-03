@@ -138,7 +138,21 @@ body {
 
 /*====HEROUS====*/
 
+.hero {
+  position: relative;
+}
+
+.herous-slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 .herous-background {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: ;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -152,8 +166,6 @@ body {
 .hero-middle {
   display: block;
   flex-wrap: wrap;
-  padding-top: 252px;
-  padding-left: 252px;
 }
 
 .main-slogan {
@@ -193,6 +205,10 @@ body {
 
 /*====FEATURES SECTION====*/
 
+.features {
+  padding-top: 94px;
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -210,7 +226,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 94px;
 
   color: #212121;
 }
@@ -229,6 +244,11 @@ body {
 /*====END FEATURES SECTION====*/
 
 /*====WHAT WE ARE DOING====*/
+
+.activities {
+  padding-top: 94px;
+}
+
 .activity-list {
   display: flex;
   margin-left: -30px;
@@ -247,9 +267,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
-  padding-top: 94px;
-
+  margin-bottom: 50px;
   color: #212121;
 }
 
@@ -257,6 +275,7 @@ body {
 
 .employees {
   background-color: #f5f4fa;
+  padding-top: 94px;
 }
 
 .masters-list {
@@ -277,9 +296,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
-  padding-top: 94px;
-
+  margin-bottom: 50px;
   color: #212121;
 }
 
@@ -311,13 +328,13 @@ body {
 
 /*==PORTFOLIO MAIN==*/
 
-.section-portfolio {
+.section-portfolio-items {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .projects-list-buttons {
-  padding-top: 94px;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .buttons-list {
@@ -334,14 +351,13 @@ body {
 .images-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: -50px;
   margin-left: -30px;
+  margin-top: ;
 }
 
 .images-list-item {
   flex-basis: calc((100%-90px) / 3 - 30px);
   margin-left: 30px;
-  padding-top: 30px;
 }
 
 .portfolio-list-btn {
@@ -399,7 +415,7 @@ body {
 }
 
 .info-footer-item:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .logo-text-footer {
